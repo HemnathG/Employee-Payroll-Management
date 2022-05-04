@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="../css/payroll_form.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
     <title>Employee Payroll Form</title>
-    
+    <script defer src="../js/payroll_form.js"></script>
 </head>
 
 <body>
-    
     <!-- UC 1 -->
     <header class="header-content header">
         <div class="logo-content">
@@ -38,7 +37,7 @@
                 <label class="label text" for="profile">Profile image</label>
                 <div class="profile-radio-content">
                     <label>
-                        <input type="radio" id="profile2" name="profile" value="../assets/profile-images/Ellipse-1.png"
+                        <input type="radio" id="profile2" name="profile" value="../assets/Ellipse-1.png"
                             required>
                         <img class="profile" id="image1" src="../assets/profile-images/Ellipse-1.png">
                     </label>
@@ -145,6 +144,7 @@
                         <option value="11">December</option>
                     </select>
                     <select id="year" name="Year">
+                        <option value="2021">2021</option>
                         <option value="2020">2020</option>
                         <option value="2019">2019</option>
                         <option value="2018">2018</option>
@@ -170,7 +170,6 @@
 
         </form>
     </div>
-    <script defer src="../js/payroll_form.js"></script>
 </body>
 
 </html>
