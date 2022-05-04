@@ -15,19 +15,23 @@
     <!-- UC 1 -->
     <header class="header-content header">
         <div class="logo-content">
-            <img src="../assets/logo.png" alt="logo">
+            <img src="../assets/images/logo.png" alt="logo">
             <div>
                 <span class="emp-text">EMPLOYEE</span><br>
                 <span class="emp-text emp-payroll">PAYROLL</span>
             </div>
         </div>
     </header>
-
+    <!-- UC 2 -->
     <div class="form-content">
-        <form class="form" action="#" onsubmit="save(event);return false"></form>
-
+        <form class="form" action="#" onsubmit="save(event);return false">
+            <div class="form-head">Employee Payroll Form</div>
+            <div class="row-content">
+                <label for="name" class="label text">Name</label>
+                <input type="text" name="name" id="name" class="input" placeholder="Your Name ..." required>
+            </div>
+        </form>
     </div>
-
 </body>
 
 </html>
